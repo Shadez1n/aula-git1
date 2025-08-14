@@ -9,3 +9,18 @@ git config --global user.name "Lui Pantaroto Moschetto"
 
 git config --global user.email "luimoschetto@gmail.com"
 ```
+
+## Comandos para gestão do Git 
+Para inicializar uma pasta com repositório git usamos o comando init.
+Só utilizamos este comando 1 vez. 
+```bash
+git init
+```
+Para ver a situação do repositório utizamos o comando status.
+Ele pode ser executado a qualquer momento para saber a situação da pasta.
+Se estiver vermelho precisa adicionar os arquivos, se estiver verde estão prontos
+para salva (commit)
+Se não aparecer nada, ou o arquivo não está salvo ou já está tudo ok.
+```bash
+git status
+```
