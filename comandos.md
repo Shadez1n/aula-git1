@@ -24,3 +24,17 @@ Se não aparecer nada, ou o arquivo não está salvo ou já está tudo ok.
 ```bash
 git status
 ```
+
+Para adicionar todos os arquivos modificados para serem versionados utilizamos o add
+**IMPORTANTE** Tem que ser executado sempre que no status houver arquivos em vermelho
+```bash 
+git add . 
+```
+
+Para criar uma versão de tudo que foi modificado aré aquele momento utilizamos o commit. <br>
+**IMPORTANTE** no -m temos que colocar uma mensagem do porque estamos salvando.
+```bash
+git commit -m "Porque estou salvando estas alterações"
+```
+
+Teste
